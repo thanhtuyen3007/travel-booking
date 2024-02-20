@@ -1,0 +1,15 @@
+.navbar-menu {
+    display: flex;
+}
+.navbar-menu-item {
+    color: var(--textColor);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0 15px;
+    text-transform: uppercase;
+
+    &.active {
+        color: var(--headerTextColor);
+        font-weight: 700;
+    }
+}

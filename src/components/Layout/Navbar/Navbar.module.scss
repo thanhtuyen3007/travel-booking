@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: var(--bodyColor);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.navbar-logo {
+    font-size: 2rem;
+}
+.logo {
+    color: var(--headerTextColor);
+    font-size: 2.2rem;
+    padding-right: 5px;
+}
+.title-logo {
+    color: var(--secodaryColor);
+    font-weight: 600;
+    font-size: 3rem;
+}

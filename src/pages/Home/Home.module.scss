@@ -1,0 +1,89 @@
+:root {
+    --heightLuxuryTravel: 650px;
+}
+.slider-wrapper {
+    position: relative;
+}
+.position {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.best-tour {
+    width: 100%;
+    margin-bottom: 60px;
+    position: relative;
+    padding: 40px 0;
+}
+.best-tour-title {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+    color: var(--textColorTitle);
+}
+.best-tour-desc {
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    margin: 0px 11%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: var(--textColorTitle);
+}
+.see-more {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.see-more button {
+    width: 150px;
+    padding: 14px 0;
+}
+.deluxe-package {
+    position: relative;
+    width: 100%;
+    height: var(--heightLuxuryTravel);
+    background-color: var(--backgroundBlack);
+}
+.deluxe-package .background-img img {
+    width: 100%;
+    height: var(--heightLuxuryTravel);
+    opacity: 0.5;
+}
+.deluxe-package-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--textColorWhite);
+    text-align: center;
+}
+.deluxe-package-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.deluxe-package-decs {
+    font-size: 1.8rem;
+    padding: 50px 0;
+}
+.deluxe-package-content button {
+    width: 150px;
+    padding: 13px 0;
+}
+.booking-room {
+    width: 100%;
+    background-color: var(--backgroundGray);
+}
+.title-room {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 6rem;
+    padding-top: 30px;
+    text-transform: uppercase;
+}

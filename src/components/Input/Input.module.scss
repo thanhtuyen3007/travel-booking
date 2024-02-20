@@ -1,0 +1,26 @@
+input {
+    width: 100%;
+    min-height: 46px;
+    border: none;
+    outline: none;
+}
+.label {
+    display: block;
+    padding-bottom: 8px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.extraSmall{
+    min-width: 25px;
+}
+.small {
+    min-width: 15%;
+}
+.medium {
+    min-width: 35%;
+}
+.large {
+    min-width: 65%;
+}

@@ -1,0 +1,47 @@
+.wrapper {
+    max-width: 100%;
+    margin: 0 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    flex: 0 0 50%;
+    margin: 35px 0;
+}
+.room-img,
+.room-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.room-img {
+    position: relative;
+}
+.room-img img {
+    width: 100%;
+}
+
+.room-img .room-name {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 170px;
+    height: 33px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 33px;
+    text-transform: uppercase;
+    background-color: var(--headerTextColor);
+    color: var(--textColorWhite);
+}
+.room-content {
+    padding: 0 15px;
+    color: var(--greyColor);
+    font-size: 1.4rem;
+}
+.room-price strong {
+    font-size: 3.6rem;
+    color: var(--headerTextColor);
+}
+
