@@ -7,8 +7,6 @@ import classNames from 'classnames/bind';
 import styles from './Footer.module.scss';
 import { faFacebook, faPinterest, faTwitter, faYahoo, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-import images from '~/assets';
-
 const cx = classNames.bind(styles);
 
 function Footer() {
@@ -54,7 +52,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className={cx('footer-partners')}>
-                <span className={cx('footer-infor-title')}>Partners</span>
+                    <span className={cx('footer-infor-title')}>Partners</span>
                     <ul className={cx('partners-list')}>
                         {listPartners.map(({ link, title }, index) => (
                             <li className={cx('partner-item')} key={index}>
@@ -66,7 +64,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className={cx('footer-tag')}>
-                <span className={cx('footer-infor-title')}>Partners</span>
+                    <span className={cx('footer-infor-title')}>Partners</span>
                     <ul className={cx('footer-tag-list')}>
                         {listTags.map(({ link, title }, index) => (
                             <li className={cx('footer-tag-item')} key={index}>

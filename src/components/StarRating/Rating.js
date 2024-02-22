@@ -8,7 +8,7 @@ const cx = classNames.bind(styles);
 function Rating({ maxStar, selectedRating }) {
     const stars = [];
     for (let star = 0; star < maxStar; star++) {
-        stars.push(<StarIcon color={star < selectedRating ? '#f3cb1a' : ''} />);
+        stars.push(<StarIcon key={star} color={star < selectedRating ? '#f3cb1a' : ''} />);
     }
     return stars;
 }

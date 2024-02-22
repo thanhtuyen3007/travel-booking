@@ -3,6 +3,8 @@ import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 
 import styles from './ListTours.module.scss';
+import Button from '../Button/Button';
+import Rating from '../StarRating/Rating';
 
 const cx = classNames.bind(styles);
 function Touritem({ data }) {
@@ -17,6 +19,7 @@ function Touritem({ data }) {
                         <p className={cx('tour-day')}>
                             {data.day} day
                         </p>
+                        <Rating maxStar={5} selectedRating={4}/>
                     </div>
                 </div>
             </Link>

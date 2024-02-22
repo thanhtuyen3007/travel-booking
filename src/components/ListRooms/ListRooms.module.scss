@@ -3,8 +3,10 @@
     margin: 0 3%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 .container {
+    width: 100%;
     display: flex;
     flex: 0 0 50%;
     margin: 35px 0;
@@ -36,6 +38,7 @@
     color: var(--textColorWhite);
 }
 .room-content {
+    position: relative;
     padding: 0 15px;
     color: var(--greyColor);
     font-size: 1.4rem;
@@ -43,5 +46,20 @@
 .room-price strong {
     font-size: 3.6rem;
     color: var(--headerTextColor);
+}
+
+.btn-room  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    padding: 0 25px;
+    font-size: 1.5rem;
+    color: var(--textColor);
+
+    &:hover {
+        transform: scale(1.1);
+        color: var(--primaryColor);
+    }
 }
 

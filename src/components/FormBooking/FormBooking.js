@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './FormBooking.module.scss';
 import Input from '~/components/Input/Input';
+import Button from '../Button/Button';
 
 const cx = classNames.bind(styles);
 
@@ -12,22 +13,16 @@ function FormBooking({ className }) {
     return (
        <div className={cx('search-input')}>
             <form className={classes}>
-                {' '}
                 <Input type={'text'} medium>
                     DESTINATION
                 </Input>
                 <Input type={'number'} small placeholder={'DD-MM-YYYY'}>
-                    check-out
-                </Input>
-                <Input type={'number'} small placeholder={'DD-MM-YYYY'}>
-                    check-in
+                    departure day
                 </Input>
                 <Input type={'number'} extraSmall>
-                    ADULTS
+                    customers
                 </Input>
-                <Input type={'number'} extraSmall>
-                    children
-                </Input>
+                <Button>Search</Button>
             </form>
        </div>
     );

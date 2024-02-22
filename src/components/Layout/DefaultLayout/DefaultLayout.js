@@ -12,7 +12,7 @@ function DefaultLayout({ children }) {
     return (
         <div className={cx('wrapper')}>
             <Navbar />
-            <div className="content">{children}</div>
+            <div className={cx('content')}>{children}</div>
             <Footer />
         </div>
     );

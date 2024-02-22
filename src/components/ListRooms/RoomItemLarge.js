@@ -8,7 +8,7 @@ import Button from '../Button/Button';
 
 const cx = classNames.bind(styles);
 
-function RoomItem({ data }) {
+function RoomItemLarge({ data }) {
     return (
         <div className={cx('container')}>
             <div className={cx('room-img')}>
@@ -20,11 +20,13 @@ function RoomItem({ data }) {
                     <strong>${data.price}</strong> Per night
                 </span>
                 <p className={cx('room-desc')}>{data.desc}</p>
-                <Rating key={data.id} maxStar={5} selectedRating={data.star} data={data}/>
-                <Button className={cx('btn-room')} href={'#'}>Read more</Button>
+                <Rating key={data.id} maxStar={5} selectedRating={data.star} data={data} />
+                <Button className={cx('btn-room')}>
+                    Read more
+                </Button>
             </div>
         </div>
     );
 }
 
-export default RoomItem;
+export default RoomItemLarge;

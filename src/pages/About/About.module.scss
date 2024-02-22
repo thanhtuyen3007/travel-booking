@@ -1,0 +1,95 @@
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+.about-decs {
+    display: flex;
+    padding: 4% 0;
+}
+.about-decs-text {
+}
+.about-decs-title {
+    font-size: 3.6rem;
+    text-align: center;
+    line-height: 6rem;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.about-parag {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    padding: 25px 0;
+}
+.about-btn {
+    text-align: center;
+}
+.banner-sale {
+    margin-bottom: 50px;
+    position: relative;
+}
+.banner-img {
+    text-align: center;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.banner-name {
+    display: block;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.banner-price {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.banner-text button {
+    width: 150px;
+    padding: 10px 0;
+}
+.statistics {
+    position: relative;
+    background-image: var(--gradientColor);
+}
+.statistics-img {
+    width: 100%;
+    height: 599px;
+}
+.statistics-img img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.statistics-text-list {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.statistics-text {
+    width: 25%;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+.statistics-icon,
+.statistics-num {
+    display: block;
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 10px auto;
+}
+.statistics-title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
