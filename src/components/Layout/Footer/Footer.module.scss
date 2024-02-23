@@ -33,7 +33,7 @@
     font-size: 2.5rem;
 }
 .logo {
-    color: var(--headerTextColor);
+    color: var(--textColorWhite);
     font-size: 2.2rem;
     padding-right: 5px;
 }
@@ -58,6 +58,7 @@
 .footer-partners .partners-list li a,
 .footer-tag .footer-tag-list li a {
     font-size: 1.6rem;
+    font-weight: 400;
     color: var(--textColorWhite);
     text-transform: capitalize;
     padding: 7px 0;
@@ -65,7 +66,6 @@
 .footer-container .footer-infor-title {
     font-size: 2rem;
     color: var(--textColorWhite);
-    font-weight: 600;
     text-transform: uppercase;
 }
 .footer-contact-infor ul li {

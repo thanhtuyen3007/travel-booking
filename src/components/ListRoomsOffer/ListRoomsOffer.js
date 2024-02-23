@@ -1,22 +1,22 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 
-import styles from './ListRooms.module.scss';
-import RoomItem from './RoomItem';
+import styles from './ListRoomsOffer.module.scss';
+import RoomItemOffer from './RoomItemOffer';
 
 const cx = classNames.bind(styles);
 
-function ListRooms({ data = [], className }) {
+function ListRoomsOffer({ data = [], className }) {
     const classes = cx('wrapper', {
         [className]: className,
     });
     return (
         <div className={classes}>
             {data.map((data) => (
-                <RoomItem key={data.id} data={data} />
+                <RoomItemOffer key={data.id} data={data} />
             ))}
         </div>
     );
 }
 
-export default ListRooms;
+export default ListRoomsOffer;

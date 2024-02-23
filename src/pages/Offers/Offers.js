@@ -9,7 +9,7 @@ import Slider from '~/components/Layout/Slider/Slider';
 import SearchService from '~/components/Listservice/SearchService';
 import FormBooking from '~/components/FormBooking/FormBooking';
 import request from '~/untils/http';
-import ListRooms from '~/components/ListRooms/ListRooms';
+import ListRoomsOffer from '~/components/ListRoomsOffer/ListRoomsOffer';
 
 const cx = classNames.bind(styles);
 
@@ -37,7 +37,7 @@ function Offers() {
                 <FormBooking />
             </div>
             <div className={cx('list-offer')}>
-                <ListRooms className={cx('no-flex')} isOffer={true} data={offer} />
+                <ListRoomsOffer className={cx('no-flex')} data={offer} />
             </div>
         </div>
     );

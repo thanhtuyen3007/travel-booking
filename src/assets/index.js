@@ -6,7 +6,8 @@ const images = {
     sliderNews: require('~/assets/images/sliderNews.jpg'),
     travelLuxury: require('~/assets/images/trave-luxury.jpg'),
     aboutImg: require('~/assets/images/about-img.png'),
-    banner: require('~/assets/images/banner-sale.webp')
+    banner: require('~/assets/images/banner-sale.webp'),
+    contact: require('~/assets/images/contact-img.png')
 };
 
 export default images;

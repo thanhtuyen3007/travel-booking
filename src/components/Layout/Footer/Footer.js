@@ -5,7 +5,7 @@ import { faEarthAmerica } from '@fortawesome/free-solid-svg-icons';
 
 import classNames from 'classnames/bind';
 import styles from './Footer.module.scss';
-import { faFacebook, faPinterest, faTwitter, faYahoo, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import {faFacebook, faPinterest, faTwitter, faYahoo, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const cx = classNames.bind(styles);
 
