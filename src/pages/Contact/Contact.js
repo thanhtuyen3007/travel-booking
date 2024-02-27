@@ -23,7 +23,7 @@ function Contact() {
                     <Input className={cx('contact-input')} large type={'email'} placeholder={'E-mail'}></Input>
                     <textarea className={cx('contact-text')} placeholder="Message"></textarea>
                     <div className={cx('send-btn')}>
-                        <Button>Send message</Button>
+                        <Button button>Send message</Button>
                     </div>
                 </form>
                 <div className={cx('contact-content')}>

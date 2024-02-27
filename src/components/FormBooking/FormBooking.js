@@ -11,20 +11,16 @@ function FormBooking({ className }) {
         [className]: className,
     });
     return (
-       <div className={cx('search-input')}>
+        <div className={cx('search-input')}>
             <form className={classes}>
-                <Input type={'text'} medium>
-                    DESTINATION
-                </Input>
-                <Input type={'number'} small placeholder={'DD-MM-YYYY'}>
-                    departure day
-                </Input>
-                <Input type={'number'} extraSmall>
-                    customers
-                </Input>
-                <Button>Search</Button>
+                <Input type={'text'} medium placeholder={'Destination'}></Input>
+                <Input type={'number'} small placeholder={' departure day'}></Input>
+                <Input type={'number'} extraSmall placeholder={'customers'}></Input>
+                <Button button className={cx('btn-search')}>
+                    Search
+                </Button>
             </form>
-       </div>
+        </div>
     );
 }
 

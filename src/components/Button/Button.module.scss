@@ -1,4 +1,4 @@
-button {
+.button {
     min-width: 100px;
     display: inline-flex;
     align-items: center;
@@ -22,6 +22,7 @@ button {
     &:hover {
         opacity: 0.9;
         transform: scale(1.05);
+       
     }
 }
 .title {
@@ -31,8 +32,4 @@ a {
     font-size: 1.8rem;
     font-weight: 700;
     color: #fff;
-
-    &:hover {
-        color: var(--buttonColor);
-    }
 }

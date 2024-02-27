@@ -25,12 +25,13 @@ function Navbar() {
                     <Menu>
                         <MenuItem title="Home" to="/" />
                         <MenuItem title="About" to="/about" />
-                        <MenuItem title="Offers" to="/offers" />
+                        <MenuItem title="Hotel" to="/offers" />
+                        <MenuItem title="tours" to="/tours" />
                         <MenuItem title="News" to="/news" />
                         <MenuItem title="Contact" to="/contact" />
                     </Menu>
 
-                    <Button>Book now</Button>
+                    <Button button>Book now</Button>
                 </div>
             </nav>
         </div>

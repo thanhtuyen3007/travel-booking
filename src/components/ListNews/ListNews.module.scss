@@ -1,0 +1,36 @@
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wrapper-item {
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin: 20px 0;
+}
+.news-img img {
+    width: 100%;
+    border-radius: 10px;
+    &:hover{
+        transform: scale(1.04);
+        cursor: pointer;
+    }
+}
+.news-content {
+    font-size: 1.5rem;
+    color: var(--textColor);
+}
+.news-title {
+    display: block;
+    font-weight: 700;
+    color: var(--textColorTitle);
+    padding: 5px 0;
+}
+.views {
+    float: right;
+}
+.text {
+    padding: 5px 0;
+}

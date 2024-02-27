@@ -36,7 +36,7 @@ function About() {
                             nibh augue, sed eleifend justo tristique eu
                         </p>
                         <div className={cx('about-btn')}>
-                            <Button>See more</Button>
+                            <Button button to={'/offers'}>See more</Button>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ function About() {
                     <div className={cx('banner-text')}>
                         <strong className={cx('banner-name')}>thai land</strong>
                         <span className={cx('banner-price')}>From 199$</span>
-                        <Button>See more</Button>
+                        <Button button>See more</Button>
                     </div>
                 </div>
                 <div className={cx('statistics')}>

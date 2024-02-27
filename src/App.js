@@ -7,11 +7,13 @@ import About from './pages/About/About';
 import Offers from './pages/Offers/Offers';
 import News from './pages/News/News';
 import Contact from './pages/Contact/Contact';
+import Tours from './pages/Tours/Tours';
 
 const publicRoutes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
     { path: '/offers', component: Offers },
+    { path: '/tours', component: Tours },
     { path: '/news', component: News },
     { path: '/contact', component: Contact },
 ];

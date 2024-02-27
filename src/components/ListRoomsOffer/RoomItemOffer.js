@@ -29,7 +29,7 @@ function RoomItemOffer({ data }) {
                 <span>
                     <strong>${data.price}</strong> Per night
                 </span>
-                <Button className={cx('btn-room')}>Book now</Button>
+                <Button button className={cx('btn-room')}>Book now</Button>
             </div>
         </div>
     );

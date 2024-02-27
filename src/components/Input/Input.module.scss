@@ -1,24 +1,27 @@
 input {
+    width: 100%;
     min-height: 46px;
     border: none;
     outline: none;
+    &::placeholder{
+        text-transform: capitalize;
+    }
 }
 .label {
     display: block;
-    padding-bottom: 8px;
     font-size: 1.4rem;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
 }
-.extraSmall{
-    min-width: 25px;
+.extraSmall {
+    min-width: 10%;
 }
 .small {
-    min-width: 15%;
+    min-width: 25%;
 }
 .medium {
-    min-width: 35%;
+    min-width: 40%;
 }
 .large {
     min-width: 90%;

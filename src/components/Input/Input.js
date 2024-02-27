@@ -22,7 +22,7 @@ function Input({
         onClick,
         ...passProp,
     };
-    const classes = cx({
+    const classes = cx('wrapper-input',{
         [className]: className,
         extraSmall,
         small,
@@ -31,11 +31,11 @@ function Input({
         outline,
     });
     return (
-        <div className={cx('wrapper-input')}>
+        <div className={classes}>
             <label className={cx('label')} htmlFor={id}>
                 {children}
             </label>
-            <input className={classes} id={id} {...props} placeholder={placeholder} />
+            <input id={id} {...props} placeholder={placeholder} />
         </div>
     );
 }

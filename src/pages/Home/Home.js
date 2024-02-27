@@ -6,7 +6,6 @@ import style from './Home.module.scss';
 import images from '~/assets';
 import Button from '~/components/Button/Button';
 import Slider from '~/components/Layout/Slider/Slider';
-import SearchService from '../../components/Listservice/SearchService';
 import * as listBestTour from '~/sevices/listBestTour';
 import FormBooking from '~/components/FormBooking/FormBooking';
 import ListTours from '~/components/ListTours/ListTours';
@@ -18,22 +17,16 @@ const cx = classNames.bind(style);
 
 function Home() {
     const [bestTour, setBestTour] = useState([]);
-    const [seeMore, setSeeMore] = useState(true);
     const [offer, setOffer] = useState([]);
     const [feedback, setFeedBack] = useState([]);
 
     useEffect(() => {
         const fetchApi = async () => {
-            if (seeMore) {
-                const result = await listBestTour.getBestTour(1, 6);
-                setBestTour(result);
-            } else {
-                const result = await listBestTour.getBestTour(1, 9);
-                setBestTour(result);
-            }
+            const result = await listBestTour.getBestTour(1, 9);
+            setBestTour(result);
         };
         fetchApi();
-    }, [seeMore]);
+    }, []);
 
     useEffect(() => {
         const fetchApi = async () => {
@@ -68,7 +61,6 @@ function Home() {
         <div className={cx('wrapper')}>
             <div className={cx('slider-wrapper')}>
                 <Slider title="discover" titleSmall="Viet Nam" src={images.sliderHome} />
-                <SearchService className={cx('position')}></SearchService>
             </div>
             <div className={cx('search-tour')}>
                 <FormBooking />
@@ -80,15 +72,11 @@ function Home() {
                     potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
                 </span>
                 <ListTours data={bestTour} />
-                {seeMore ? (
-                    <div className={cx('see-more')}>
-                        <Button onClick={() => setSeeMore(false)}>See more...</Button>
-                    </div>
-                ) : (
-                    <div className={cx('see-more')}>
-                        <Button onClick={() => setSeeMore(true)}>See less...</Button>
-                    </div>
-                )}
+                <div className={cx('see-more')}>
+                    <Button button to={'/tours'}>
+                        See more...
+                    </Button>
+                </div>
             </div>
             <div className={cx('deluxe-package')}>
                 <div className={cx('background-img')}>
@@ -100,7 +88,7 @@ function Home() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse
                         potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
                     </p>
-                    <Button>book now</Button>
+                    <Button button>book now</Button>
                 </div>
             </div>
             <div className={cx('booking-room')}>
