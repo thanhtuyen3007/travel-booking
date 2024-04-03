@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "ha long bay",
+        "price": 70,
+        "star": 3,
+        "url": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "desc": "Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor."
+    },
+    {
+        "id": 2,
+        "name": "ba na hill",
+        "price": 55,
+        "star": 4,
+        "url": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "desc": "Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor."
+    },
+    {
+        "id": 4,
+        "name": "nha trang beach",
+        "price": 63,
+        "star": 5,
+        "url": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "desc": "Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor."
+    },
+    {
+        "id": 5,
+        "name": "sapa",
+        "price": 73,
+        "star": 5,
+        "url": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "desc": "Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor."
+    },
+    {
+        "id": 6,
+        "name": "ha long",
+        "price": 70,
+        "star": 4,
+        "url": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "desc": "Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor."
+    },
+    {
+        "id": 7,
+        "name": "ha long",
+        "price": 70,
+        "star": 4,
+        "url": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "desc": "Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor."
+    },
+    {
+        "id": 8,
+        "name": "lao cai",
+        "price": 70,
+        "star": 3,
+        "url": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "desc": "Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor."
+    }
+]

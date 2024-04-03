@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "title": "ha long",
+        "price": 1450,
+        "day": 5,
+        "url": "https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 2,
+        "title": "hoi an",
+        "price": 1350,
+        "day": 4,
+        "url": "https://images.unsplash.com/photo-1652731011413-93d4c5aa5c7c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 3,
+        "title": "vung tau",
+        "price": 1050,
+        "day": 4,
+        "url": "https://images.unsplash.com/photo-1686073770064-ca01f5f6f657?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 4,
+        "title": "da lat",
+        "price": 1250,
+        "day": 3,
+        "url": "https://images.unsplash.com/photo-1552310065-aad9ebece999?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 5,
+        "title": "phan thiet",
+        "price": 1400,
+        "day": 5,
+        "url": "https://images.unsplash.com/photo-1690119521263-510b8ee85c29?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 6,
+        "title": "da nang",
+        "price": 1650,
+        "day": 4,
+        "url": "https://images.unsplash.com/photo-1569514831066-93529ffe6bc0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 7,
+        "title": "hue",
+        "price": 950,
+        "day": 2,
+        "url": "https://images.unsplash.com/photo-1685928146465-2e1a2a7ddd72?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 8,
+        "title": "ha noi",
+        "price": 1050,
+        "day": 3,
+        "url": "https://images.unsplash.com/photo-1555921015-5532091f6026?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 9,
+        "title": "sa pa",
+        "price": 1250,
+        "day": 3,
+        "url": "https://images.unsplash.com/photo-1563569612920-05b6b8425fb4?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3x,A3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 10,
+        "title": "phu quoc",
+        "price": 1350,
+        "day": 4,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 11,
+        "title": "can tho",
+        "price": 900,
+        "day": 3,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 12,
+        "title": "phu yen",
+        "price": 800,
+        "day": 2,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 15,
+        "title": "dong nai",
+        "price": 550,
+        "day": 1,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 14,
+        "title": "nha trang",
+        "price": 1350,
+        "day": 3,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 16,
+        "title": "cao bang",
+        "price": 1350,
+        "day": 3,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 17,
+        "title": "lang son",
+        "price": 1650,
+        "day": 3,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 18,
+        "title": "tay ninh",
+        "price": 500,
+        "day": 1,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 19,
+        "title": "ha giang",
+        "price": 1850,
+        "day": 4,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 20,
+        "title": "ninh binh",
+        "price": 1450,
+        "day": 3,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 21,
+        "title": "quy nhon",
+        "price": 1250,
+        "day": 3,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+        "id": 22,
+        "title": "ca mau",
+        "price": 950,
+        "day": 2,
+        "url": "https://via.placeholder.com/600/92c952",
+        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    }
+]

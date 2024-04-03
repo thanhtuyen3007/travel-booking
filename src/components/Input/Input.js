@@ -6,6 +6,9 @@ const cx = classNames.bind(styles);
 
 function Input({
     type,
+    value,
+    min,
+    max,
     placeholder,
     className,
     id,
@@ -22,7 +25,7 @@ function Input({
         onClick,
         ...passProp,
     };
-    const classes = cx('wrapper-input',{
+    const classes = cx('wrapper-input', {
         [className]: className,
         extraSmall,
         small,
@@ -35,7 +38,7 @@ function Input({
             <label className={cx('label')} htmlFor={id}>
                 {children}
             </label>
-            <input id={id} {...props} placeholder={placeholder} />
+            <input id={id} {...props} type={type} value={value} min={min} max={max} placeholder={placeholder} />
         </div>
     );
 }

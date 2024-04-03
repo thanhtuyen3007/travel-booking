@@ -14,8 +14,8 @@ function FormBooking({ className }) {
         <div className={cx('search-input')}>
             <form className={classes}>
                 <Input type={'text'} medium placeholder={'Destination'}></Input>
-                <Input type={'number'} small placeholder={' departure day'}></Input>
-                <Input type={'number'} extraSmall placeholder={'customers'}></Input>
+                <Input type={'date'} small placeholder={' departure day'}></Input>
+                <Input type={'number'}  min={1} max={200} extraSmall placeholder={'customers'}></Input>
                 <Button button className={cx('btn-search')}>
                     Search
                 </Button>

@@ -14,19 +14,23 @@
 }
 .contact-input,
 .contact-text {
-    margin: 20px 0;
+    width: 90%;
+    margin: 20px auto;
     color: #fff;
-    background-color: transparent;
+    background-color: inherit;
     border: none;
     outline: none;
     border-bottom: #fff 1px solid;
+    input {
+        color: #fff;
+        background-color: inherit;
+    }
 }
 .contact-text {
-    width: 90%;
-    height: 130px;
+    height: 10rem;
 }
 .send-btn {
-    margin-top: 80px;
+    margin-top: 5rem;
     text-align: center;
 }
 .contact-content {
@@ -49,22 +53,20 @@
     font-size: 3rem;
     color: var(--primaryColor);
 }
-.contact-itro-decs{
+.contact-itro-decs {
     font-size: 1.6rem;
     color: var(--textColor);
     margin: 20px 0;
 }
-.contact-social{
+.contact-social {
     font-size: 2rem;
     color: var(--buttonColor);
-   
 }
-.contact-icon-social{
+.contact-icon-social {
     border: 2px solid var(--buttonColor);
     border-radius: 50%;
     padding: 10px;
     margin-right: 10px;
-
 }
 .contact-infor {
     flex: 0 0 25%;

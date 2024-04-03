@@ -7,25 +7,13 @@ import styles from './Offers.module.scss';
 import images from '~/assets';
 import Slider from '~/components/Layout/Slider/Slider';
 import FormBooking from '~/components/FormBooking/FormBooking';
-import request from '~/untils/http';
+import dataRooms from '~/dataRooms';
+
 import ListRoomsOffer from '~/components/ListRoomsOffer/ListRoomsOffer';
 
 const cx = classNames.bind(styles);
 
 function Offers() {
-    const [offer, setOffer] = useState([]);
-
-    useEffect(() => {
-        const fetchApi = async () => {
-            try {
-                const res = await request.get('/room', {});
-                return setOffer(res.data);
-            } catch (error) {
-                console.log(error);
-            }
-        };
-        fetchApi();
-    }, []);
     return (
         <div className={cx('offer-wrapper')}>
             <div className={cx('slider-wrapper')}>
@@ -35,7 +23,7 @@ function Offers() {
                 <FormBooking />
             </div>
             <div className={cx('list-offer')}>
-                <ListRoomsOffer className={cx('no-flex')} data={offer} />
+                <ListRoomsOffer className={cx('no-flex')} data={dataRooms} />
             </div>
         </div>
     );

@@ -6,57 +6,17 @@ import style from './Home.module.scss';
 import images from '~/assets';
 import Button from '~/components/Button/Button';
 import Slider from '~/components/Layout/Slider/Slider';
-import * as listBestTour from '~/sevices/listBestTour';
 import FormBooking from '~/components/FormBooking/FormBooking';
 import ListTours from '~/components/ListTours/ListTours';
 import ListRooms from '~/components/ListRooms/ListRooms';
 import FeedBackList from '~/components/FeedBackList/FeedBackList';
-import request from '~/untils/http';
+import dataTours from '~/data';
+import dataRooms from '~/dataRooms';
+import dataFeedback from '~/dataFeedback';
 
 const cx = classNames.bind(style);
 
 function Home() {
-    const [bestTour, setBestTour] = useState([]);
-    const [offer, setOffer] = useState([]);
-    const [feedback, setFeedBack] = useState([]);
-
-    useEffect(() => {
-        const fetchApi = async () => {
-            const result = await listBestTour.getBestTour(1, 9);
-            setBestTour(result);
-        };
-        fetchApi();
-    }, []);
-
-    useEffect(() => {
-        const fetchApi = async () => {
-            try {
-                const res = await request.get('/room', {
-                    params: {
-                        // eslint-disable-next-line no-undef
-                        _page: '1',
-                        _per_page: '4',
-                    },
-                });
-                return setOffer(res.data.data);
-            } catch (error) {
-                console.log(error);
-            }
-        };
-        fetchApi();
-    }, []);
-    useEffect(() => {
-        const fetchApi = async () => {
-            try {
-                const res = await request.get('/feedback');
-                return setFeedBack(res.data);
-            } catch (error) {
-                console.log(error);
-            }
-        };
-        fetchApi();
-    }, []);
-
     return (
         <div className={cx('wrapper')}>
             <div className={cx('slider-wrapper')}>
@@ -71,7 +31,7 @@ function Home() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse
                     potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
                 </span>
-                <ListTours data={bestTour} />
+                <ListTours data={dataTours} />
                 <div className={cx('see-more')}>
                     <Button button to={'/tours'}>
                         See more...
@@ -93,11 +53,11 @@ function Home() {
             </div>
             <div className={cx('booking-room')}>
                 <h3 className={cx('title-room')}>THE BEST OFFERS WITH ROOMS</h3>
-                <ListRooms data={offer} />
+                <ListRooms data={dataRooms} />
             </div>
             <div className={cx('feed-back')}>
                 <h2 className={cx('title-feedback')}>WHAT OUR CLIENTS SAY ABOUT US</h2>
-                <FeedBackList data={feedback} />
+                <FeedBackList data={dataFeedback} />
             </div>
         </div>
     );
