@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/travel-booking/static/css/main.cd8c962b.css",
+    "main.js": "/travel-booking/static/js/main.9e148e88.js",
+    "static/media/sliderTours.jpg": "/travel-booking/static/media/sliderTours.5213913a38f9627fe0c8.jpg",
+    "static/media/trave-luxury.jpg": "/travel-booking/static/media/trave-luxury.48248311a022b7860755.jpg",
+    "static/media/sliderOffers.jpg": "/travel-booking/static/media/sliderOffers.4c5b0b8b48eaf7a7b0de.jpg",
+    "static/media/sliderHome.jpg": "/travel-booking/static/media/sliderHome.add6515cd78dc9cd9fb2.jpg",
+    "static/media/sliderAbout.jpg": "/travel-booking/static/media/sliderAbout.fd2abc2e48dd9a03c855.jpg",
+    "static/media/sliderContact.jpg": "/travel-booking/static/media/sliderContact.8ed5e8fcc3f0802b240c.jpg",
+    "static/media/sliderNews.jpg": "/travel-booking/static/media/sliderNews.e7681f027db2244dc2ee.jpg",
+    "static/media/about-img.png": "/travel-booking/static/media/about-img.f675e13e71eb0e0aa372.png",
+    "static/media/contact-img.png": "/travel-booking/static/media/contact-img.c7698d4379d276a729ff.png",
+    "static/media/banner-sale.webp": "/travel-booking/static/media/banner-sale.0bb7b58f6e4989f262c8.webp",
+    "index.html": "/travel-booking/index.html",
+    "main.cd8c962b.css.map": "/travel-booking/static/css/main.cd8c962b.css.map",
+    "main.9e148e88.js.map": "/travel-booking/static/js/main.9e148e88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8c962b.css",
+    "static/js/main.9e148e88.js"
+  ]
+}
