@@ -4,18 +4,17 @@ import { DefaultLayout } from '~/components/Layout';
 
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
-import Offers from './pages/Offers/Offers';
 import News from './pages/News/News';
 import Contact from './pages/Contact/Contact';
 import Tours from './pages/Tours/Tours';
-
+import DescTour from './components/DescTour/DescTour';
 const publicRoutes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
-    { path: '/offers', component: Offers },
     { path: '/tours', component: Tours },
     { path: '/news', component: News },
     { path: '/contact', component: Contact },
+    { path: '/:title', component: DescTour },
 ];
 function App() {
     return (

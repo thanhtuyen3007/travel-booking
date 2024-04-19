@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react';
-
 import classNames from 'classnames/bind';
 import style from './Home.module.scss';
 
@@ -8,10 +6,8 @@ import Button from '~/components/Button/Button';
 import Slider from '~/components/Layout/Slider/Slider';
 import FormBooking from '~/components/FormBooking/FormBooking';
 import ListTours from '~/components/ListTours/ListTours';
-import ListRooms from '~/components/ListRooms/ListRooms';
 import FeedBackList from '~/components/FeedBackList/FeedBackList';
 import dataTours from '~/data';
-import dataRooms from '~/dataRooms';
 import dataFeedback from '~/dataFeedback';
 
 const cx = classNames.bind(style);
@@ -50,10 +46,6 @@ function Home() {
                     </p>
                     <Button button>book now</Button>
                 </div>
-            </div>
-            <div className={cx('booking-room')}>
-                <h3 className={cx('title-room')}>THE BEST OFFERS WITH ROOMS</h3>
-                <ListRooms data={dataRooms} />
             </div>
             <div className={cx('feed-back')}>
                 <h2 className={cx('title-feedback')}>WHAT OUR CLIENTS SAY ABOUT US</h2>

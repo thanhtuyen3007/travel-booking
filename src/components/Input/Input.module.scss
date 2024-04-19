@@ -1,12 +1,14 @@
-input {
+input,
+textarea {
     width: 100%;
-    min-height: 46px;
+    height: auto;
     border: none;
     outline: none;
     &::placeholder {
         text-transform: capitalize;
     }
 }
+
 .label {
     display: block;
     font-size: 1.4rem;

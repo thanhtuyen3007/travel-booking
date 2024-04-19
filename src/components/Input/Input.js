@@ -17,10 +17,17 @@ function Input({
     medium = false,
     large = false,
     outline = false,
-    children,
+    label,
+    textarea = false,
     onClick,
     ...passProp
 }) {
+    let Comp = 'input';
+    if (textarea) {
+        Comp = 'textarea';
+    } else {
+        Comp = 'input';
+    }
     const props = {
         onClick,
         ...passProp,
@@ -36,9 +43,9 @@ function Input({
     return (
         <div className={classes}>
             <label className={cx('label')} htmlFor={id}>
-                {children}
+                {label}
             </label>
-            <input id={id} {...props} type={type} value={value} min={min} max={max} placeholder={placeholder} />
+            <Comp id={id} {...props} type={type} value={value} min={min} max={max} placeholder={placeholder}></Comp>
         </div>
     );
 }

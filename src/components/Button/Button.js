@@ -5,7 +5,7 @@ import styles from './Button.module.scss';
 
 const cx = classNames.bind(styles);
 
-function Button({ to, href, className, children, onClick, disabled = false,button = false, ...passProp }) {
+function Button({ to, href, className, children, onClick, disabled = false, button = false, ...passProp }) {
     let Comp = 'button'; // mặc định là thẻ button
 
     const props = {
