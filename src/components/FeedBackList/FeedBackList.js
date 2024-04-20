@@ -14,5 +14,4 @@ function FeedBackList({ data }) {
         </nav>
     );
 }
-
 export default FeedBackList;

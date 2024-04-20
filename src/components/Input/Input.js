@@ -1,4 +1,5 @@
 import React from 'react';
+import { forwardRef } from 'react';
 import classNames from 'classnames/bind';
 import styles from './Input.module.scss';
 
@@ -7,8 +8,7 @@ const cx = classNames.bind(styles);
 function Input({
     type,
     value,
-    min,
-    max,
+    ref,
     placeholder,
     className,
     id,
@@ -16,10 +16,11 @@ function Input({
     small = false,
     medium = false,
     large = false,
+    extralarge = false,
     outline = false,
     label,
     textarea = false,
-    onClick,
+    onChange,
     ...passProp
 }) {
     let Comp = 'input';
@@ -29,7 +30,7 @@ function Input({
         Comp = 'input';
     }
     const props = {
-        onClick,
+        onChange,
         ...passProp,
     };
     const classes = cx('wrapper-input', {
@@ -45,9 +46,12 @@ function Input({
             <label className={cx('label')} htmlFor={id}>
                 {label}
             </label>
-            <Comp id={id} {...props} type={type} value={value} min={min} max={max} placeholder={placeholder}></Comp>
+            <Comp id={id} {...props} type={type} value={value} ref={ref} placeholder={placeholder}></Comp>
         </div>
     );
 }
+export const InputRef = forwardRef((props, ref) => {
+    return <Comp ref={ref}>Reference</Comp>;
+});
 
 export default Input;
