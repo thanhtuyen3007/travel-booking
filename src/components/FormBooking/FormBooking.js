@@ -18,14 +18,20 @@ function FormBooking({ className, data }) {
     const show = () => setVisible(true);
     const hide = () => setVisible(false);
     const inputRef = useRef();
-
+    console.log(searchResult);
     useEffect(() => {
-        console.log(searchValue);
+        if (!searchValue.trim()) {
+            setSearchResult([]);
+            return;
+        }
         data.map((data) => {
-            if (searchValue == data.title) {
-                setSearchResult([data]);
+            if (data.title.includes(searchValue)) {
+                setSearchResult((prevdata) => [...prevdata, data]);
             }
         });
+        return () => {
+            setSearchResult([]);
+        };
     }, [searchValue]);
 
     const classes = cx('search-input-form', {
