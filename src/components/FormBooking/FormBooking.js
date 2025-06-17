@@ -1,10 +1,11 @@
 import React from 'react';
 import { useState, useRef, useEffect } from 'react';
 import HeadlessTippy from '@tippyjs/react/headless';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import classNames from 'classnames/bind';
 import styles from './FormBooking.module.scss';
-import Button from '~/components/Button/Button';
 import Wrapper from '~/components/Wrapper/Wrapper';
 import { Link } from 'react-router-dom';
 
@@ -15,7 +16,7 @@ function FormBooking({ className, data }) {
     const [searchResult, setSearchResult] = useState([]);
 
     const [visible, setVisible] = useState(true);
-    const show = () => setVisible(true);
+    // const show = () => setVisible(true);
     const hide = () => setVisible(false);
     const inputRef = useRef();
     console.log(searchResult);
@@ -24,7 +25,7 @@ function FormBooking({ className, data }) {
             setSearchResult([]);
             return;
         }
-        data.map((data) => {
+        data.forEach((data) => {
             if (data.title.includes(searchValue)) {
                 setSearchResult((prevdata) => [...prevdata, data]);
             }
@@ -32,7 +33,7 @@ function FormBooking({ className, data }) {
         return () => {
             setSearchResult([]);
         };
-    }, [searchValue]);
+    }, [searchValue, data]);
 
     const classes = cx('search-input-form', {
         [className]: className,
@@ -60,18 +61,18 @@ function FormBooking({ className, data }) {
                 )}
                 onClickOutside={hide}
             >
-                <input
-                    ref={inputRef}
-                    value={searchValue}
-                    spellCheck={false}
-                    className={cx('input-form')}
-                    placeholder="Destination"
-                    onChange={(e) => setSearchValue(e.target.value)}
-                />
+                <div className={cx('search-input')}>
+                    <input
+                        ref={inputRef}
+                        value={searchValue}
+                        spellCheck={false}
+                        className={cx('input-form')}
+                        placeholder="Enter a destination (e.g. Ha Long, Da Nang...)"
+                        onChange={(e) => setSearchValue(e.target.value)}
+                    ></input>
+                    <Link href='#' className={cx('search-link')}><FontAwesomeIcon className={cx('search-icon')} icon={faSearch} /></Link>
+                </div>
             </HeadlessTippy>
-            <Button button className={cx('btn-search')}>
-                Search
-            </Button>
         </form>
     );
 }

@@ -1,27 +1,35 @@
 @import 'normalize.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 :root {
-    --primaryColor: rgb(26, 41, 72);
-    --secodaryColor: rgb(0, 66, 130);
+    --primaryColor: #012A4A;
+    --secodaryColor: #004E89;
+    --AmberGoldColor: #FFB100;
+    --WarmGoldColor: #E6AC00;
     --gradientColor: linear-gradient(to right, var(--primaryColor), var(--secodaryColor));
-    --gradientColorYellow: linear-gradient(to right, var(--headerTextColor), var(--secodaryColor));
-    --textColorTitle: rgb(35, 35, 36);
-    --backgroundBlack: rgb(27, 27, 27);
-    --backgroundGray: rgb(230, 230, 230);
-    --textColorWhite: rgb(255, 255, 255);
-    --textColor: rgb(76, 76, 77);
-    --greyColor: rgb(128, 126, 126);
-    --bodyColor: rgb(253, 251, 251);
-    --buttonColor:rgb(232, 149, 47);
-    --headerTextColor:rgb(232, 149, 47);
+    --gradientColorYellow: linear-gradient(to right, var(--AmberGoldColor), var(--WarmGoldColor));
+    --backgroundBlack: #1b1b1b;
+    --backgroundGray: #f7f7f7;
+    --borderGray: #ececec;
+    --textWhite: #ffffff;
+    --textBlack: #000000;
+    --greyColor: #807e7e;
+    --bodyColor: #ffffff;
+    --buttonColor: var(--WarmGoldColor);
+    --headerTextColor: var( --WarmGoldColor);
+    // --buttonColor: rgb(232, 149, 47);
+    // --headerTextColor: rgb(232, 149, 47);
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 html {

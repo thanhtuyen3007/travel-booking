@@ -30,34 +30,36 @@ function Contact() {
                     <div className={cx('contact-img')}>
                         <img src={images.contact} alt="" />
                     </div>
-                    <div className={cx('introduce')}>
-                        <Link to="/" className={cx('contact-logo')}>
-                            <FontAwesomeIcon className={cx('logo')} icon={faEarthAmerica} />
-                            <span className={cx('title-logo')}>TRAVEL.</span>
-                        </Link>
-                        <div className={cx('contact-itro-decs')}>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros,
-                                iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula
-                                pretium.
-                            </p>
+                   <div className={cx('contact-intro')}>
+                        <div className={cx('introduce')}>
+                            <Link to="/" className={cx('contact-logo')}>
+                                <FontAwesomeIcon className={cx('logo')} icon={faEarthAmerica} />
+                                <span className={cx('title-logo')}>TRAVEL.</span>
+                            </Link>
+                            <div className={cx('contact-itro-decs')}>
+                                <p>
+                                    Uncover the beauty of Vietnam and beyond. Your journey starts here. We’re here to help
+                                    you explore the most captivating corners of the world. Thank you for choosing us as your
+                                    travel companion.
+                                </p>
+                            </div>
+                            <div className={cx('contact-social')}>
+                                <FontAwesomeIcon className={cx('contact-icon-social')} icon={faFacebook} />
+                                <FontAwesomeIcon className={cx('contact-icon-social')} icon={faPinterest} />
+                                <FontAwesomeIcon className={cx('contact-icon-social')} icon={faTwitter} />
+                                <FontAwesomeIcon className={cx('contact-icon-social')} icon={faYoutube} />
+                                <FontAwesomeIcon className={cx('contact-icon-social')} icon={faYahoo} />
+                            </div>
                         </div>
-                        <div className={cx('contact-social')}>
-                            <FontAwesomeIcon className={cx('contact-icon-social')} icon={faFacebook} />
-                            <FontAwesomeIcon className={cx('contact-icon-social')} icon={faPinterest} />
-                            <FontAwesomeIcon className={cx('contact-icon-social')} icon={faTwitter} />
-                            <FontAwesomeIcon className={cx('contact-icon-social')} icon={faYoutube} />
-                            <FontAwesomeIcon className={cx('contact-icon-social')} icon={faYahoo} />
+                        <div className={cx('contact-infor')}>
+                            <ul className={cx('contact-infor-list')}>
+                                <li>307 Phan Van Tri, Quan Go Vap</li>
+                                <li>+84 123 456 789</li>
+                                <li>travelcompany@gmail.com</li>
+                                <li>travel.vn</li>
+                            </ul>
                         </div>
-                    </div>
-                    <div className={cx('contact-infor')}>
-                        <ul className={cx('contact-infor-list')}>
-                            <li>307 Phan Van Tri, Quan Go Vap</li>
-                            <li>+84 123 456 789</li>
-                            <li>travelcompany@gmail.com</li>
-                            <li>travel.vn</li>
-                        </ul>
-                    </div>
+                   </div>
                 </div>
             </div>
         </div>

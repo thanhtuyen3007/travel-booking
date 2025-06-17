@@ -5,7 +5,7 @@ import { faEarthAmerica } from '@fortawesome/free-solid-svg-icons';
 
 import classNames from 'classnames/bind';
 import styles from './Footer.module.scss';
-import {faFacebook, faPinterest, faTwitter, faYahoo, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faPinterest, faTwitter, faYahoo, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const cx = classNames.bind(styles);
 
@@ -39,8 +39,10 @@ function Footer() {
                     </Link>
                     <div className={cx('footer-text')}>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros,
-                            iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.
+                            We are a premium travel agency offering unforgettable journeys across Vietnam and beyond.
+                            With years of experience, we craft personalized tours that connect you with culture, nature,
+                            and authentic local life. Let us turn your travel dreams into reality – with comfort,
+                            elegance, and unforgettable memories.
                         </p>
                     </div>
                     <div className={cx('footer-social')}>

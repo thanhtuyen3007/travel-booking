@@ -10,8 +10,12 @@
 }
 .best-tour-title {
     text-align: center;
-    font-size: 6rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
     color: var(--textColorTitle);
 }
 .best-tour-desc {
@@ -22,7 +26,6 @@
     padding-top: 25px;
     padding-bottom: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
     color: var(--textColorTitle);
 }
 .see-more {
@@ -51,7 +54,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--textColorWhite);
+    color: var(--textWhite);
     text-align: center;
 }
 .deluxe-package-title {

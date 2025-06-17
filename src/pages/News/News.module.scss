@@ -4,44 +4,10 @@
     border-bottom: 2px solid var(--headerTextColor);
 }
 .title-text {
-    font-size: 2.5rem;
+    font-size: 4rem;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     color: var(--textColorTitle);
     text-transform: capitalize;
-}
-.hot-news {
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-.hot-news-container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.hot-new-item {
-    flex: 0 0 30%;
-    max-width: 30%;
-    margin: 20px 0;
-    position: relative;
-    &:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-    }
-}
-.hot-new-img {
-    width: 100%;
-    border-radius: 10px;
-}
-.hot-new-decs {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--textColorWhite);
-    padding: 20px;
-    box-sizing: border-box;
-    overflow: hidden;
 }

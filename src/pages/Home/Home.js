@@ -24,8 +24,8 @@ function Home() {
             <div className={cx('best-tour')}>
                 <h2 className={cx('best-tour-title')}>We have the best tours</h2>
                 <span className={cx('best-tour-desc')}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse
-                    potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
+                    Discover unforgettable journeys — from pristine beaches to historic cities. Enjoy premium
+                    experiences, personalized service, and memories that last a lifetime.
                 </span>
                 <ListTours data={dataTours} lengthData={9} />
                 <div className={cx('see-more')}>
@@ -41,8 +41,8 @@ function Home() {
                 <div className={cx('deluxe-package-content')}>
                     <span className={cx('deluxe-package-title')}>MALDIVES DELUXE PACKAGE</span>
                     <p className={cx('deluxe-package-decs')}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse
-                        potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
+                        Discover serenity in the Maldives. This exclusive deluxe package offers premium accommodations,
+                        fine dining, and unforgettable ocean experiences.
                     </p>
                     <Button button>book now</Button>
                 </div>

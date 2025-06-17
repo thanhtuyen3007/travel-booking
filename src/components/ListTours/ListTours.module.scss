@@ -16,9 +16,12 @@
 .tour-container {
     width: 29%;
     margin: 30px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--borderGray);
+    background-color: var(--backgroundGray);
     box-sizing: border-box;
     position: relative;
-    background-color: #242323;
     overflow: hidden;
     &:hover {
         transform: scale(1.05);
@@ -26,34 +29,32 @@
 }
 .tour-img {
     width: 100%;
-    height: 100%;
-    opacity: 0.55;
+    max-height: 260px;
+    object-fit: cover;
     transition: all 1s ease;
-}
-.tour-img img {
-}
-.tour-decs {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%);
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(5, 5, 5, 0.2);
 }
 
-.tour-title {
-    color: #fff;
-    font-size: 4.5rem;
-    font-family: 'Alex Brush', cursive;
-    font-weight: 400;
+.tour-decs {
+    color: var(--textBlack);
+}
+
+.tour-title {   
+    font-size: 2.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
     font-style: normal;
     text-transform: capitalize;
 }
 
 .tour-infor {
-    font-size: 1.7rem;
-    text-align: center;
+    font-size: 1.6rem;
     text-transform: capitalize;
     font-weight: 400;
-    color: #fff;
+   
 }
 .tour-price {
     display: block;

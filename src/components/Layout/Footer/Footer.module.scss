@@ -5,7 +5,7 @@
     width: 100%;
     height: 480px;
     background-color: var(--primaryColor);
-    color: var(--textColorWhite);
+    color: var(--textWhite);
 }
 .footer-container {
     display: flex;
@@ -19,7 +19,7 @@
 .footer-social {
     font-size: 2.5rem;
     margin-top: 10px;
-    color: var(--textColorWhite);
+    color: var(--textWhite);
 }
 
 .footer-icon-social {
@@ -33,12 +33,12 @@
     font-size: 2.5rem;
 }
 .logo {
-    color: var(--textColorWhite);
+    color: var(--textWhite);
     font-size: 2.2rem;
     padding-right: 5px;
 }
 .title-logo {
-    color: var(--textColorWhite);
+    color: var(--textWhite);
     font-weight: 600;
     font-size: 3rem;
 }
@@ -59,17 +59,17 @@
 .footer-tag .footer-tag-list li a {
     font-size: 1.6rem;
     font-weight: 400;
-    color: var(--textColorWhite);
+    color: var(--textWhite);
     text-transform: capitalize;
     padding: 7px 0;
 }
 .footer-container .footer-infor-title {
     font-size: 2rem;
-    color: var(--textColorWhite);
+    color: var(--textWhite);
     text-transform: uppercase;
 }
 .footer-contact-infor ul li {
     font-size: 1.6rem;
     line-height: 3.3rem;
-    color: var(--textColorWhite);
+    color: var(--textWhite);
 }

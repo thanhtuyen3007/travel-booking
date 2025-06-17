@@ -10,9 +10,9 @@ const cx = classNames.bind(styles)
 function FeedBackItem({ data }) {
   return (
     <div className={cx('container')}>
-       <p className={cx('comment')}>{data.desc}</p>
-       <img className={cx('avatar')} src={data.url} alt={data.name}/>
        <span className={cx('name')}>{data.name}</span>
+       <img className={cx('avatar')} src={data.url} alt={data.name}/>
+       <p className={cx('comment')}>{data.feedback}</p>
        <div className={cx('rating')}><Rating maxStar={5} selectedRating={5}/></div>
     </div>
   )
