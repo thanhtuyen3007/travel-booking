@@ -19,7 +19,7 @@ function Home() {
                 <Slider title="discover" titleSmall="Viet Nam" src={images.sliderHome} />
             </div>
             <div className={cx('search-tour')}>
-                <FormBooking />
+                <FormBooking data={dataTours} />
             </div>
             <div className={cx('best-tour')}>
                 <h2 className={cx('best-tour-title')}>We have the best tours</h2>
@@ -27,7 +27,7 @@ function Home() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse
                     potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
                 </span>
-                <ListTours data={dataTours} />
+                <ListTours data={dataTours} lengthData={9} />
                 <div className={cx('see-more')}>
                     <Button button to={'/tours'}>
                         See more...

@@ -6,8 +6,11 @@ import Touritem from './Touritem';
 
 const cx = classNames.bind(styles);
 
-function ListTours({ data = [] }) {
-    
+function ListTours({ data = [], lengthData }) {
+    if (lengthData) {
+        data = [...data.slice(0, lengthData)];
+    }
+
     return (
         <div className={cx('wrapper')}>
             {data.map((data) => (

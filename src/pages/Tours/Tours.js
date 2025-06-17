@@ -17,7 +17,7 @@ function Tours() {
                 <Slider title="our tours" src={images.sliderTours} />
             </div>
             <div className={cx('search-tour')}>
-                <FormBooking />
+                <FormBooking data={dataTours} />
             </div>
             <ListTours data={dataTours} />
         </div>
